@@ -8,3 +8,13 @@
 exercise1 = Exercise.create(exercise_name: 'Push-ups', description: 'Classic upper body exercise', muscle_group: 'Chest', image: 'https://images.pexels.com/photos/4753990/pexels-photo-4753990.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 exercise2 = Exercise.create(exercise_name: 'Squats', description: 'Lower body compound exercise', muscle_group: 'Legs', image: 'https://images.pexels.com/photos/4761339/pexels-photo-4761339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
 exercise3 = Exercise.create(exercise_name: 'Sit-ups', description: 'Core exercise targeting abdominal muscles', muscle_group: 'Abs',image:'https://images.pexels.com/photos/14228091/pexels-photo-14228091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')
+
+# Create Users
+user = User.create(username: 'Godwin', email: 'godwin449@gmail.com', password_digest: 'password1')
+user = User.create(username: 'Glen', email: 'glen449@gmail.com', password_digest: 'password2')
+user = User.create(username: 'Hellen', email: 'hellen449@gmail.com', password_digest: 'password3')
+
+# Create Workouts
+ workout = Workout.create(workout_name: 'push-ups')
+ workout = Workout.create(workout_name: 'sit-ups')
+ workout = Workout.create(workout_name: 'shoulder_press')
