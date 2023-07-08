@@ -35,7 +35,7 @@ def destroy
 end
 
 def create
-  exercises = Exercise.new(id: params[:id])
+  exercises = Exercise.create(id: params[:id])
   if exercises
     render json: exercises, status: :created
   else
