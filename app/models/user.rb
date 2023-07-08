@@ -6,4 +6,5 @@ class User < ApplicationRecord
 
     validates :username, presence: true, uniqueness: true
     validates :email, presence: true, uniqueness: true
+    validates :password_digest, {:length => { :in => 6..20}}
 end

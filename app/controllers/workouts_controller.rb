@@ -14,11 +14,13 @@ class WorkoutsController < ApplicationController
   end
   
   def create
-    workouts = Workout.create(workout_name: params[:workout_name],
-    sets: params[:sets],
-  reps: params[:reps],
-duration: params[:duration])
-    render json: workouts, status: :created
+    workout = Workout.create(
+      workout_name: params[:workout_name],
+      sets: params[:sets],
+      reps: params[:reps],
+      duration: params[:duration]
+    )
+    render json: workout, status: :created
   end
   
   def destroy
@@ -29,6 +31,6 @@ duration: params[:duration])
     else
       render json: { error: 'Workout not found' }, status: :not_found
     end
-      end
-      end
+  end
+end
   
