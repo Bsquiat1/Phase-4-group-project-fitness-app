@@ -31,4 +31,7 @@ user = User.create(username: 'Godwin', email: 'godwin449@gmail.com', password_di
 user = User.create(username: 'Glen', email: 'glen449@gmail.com', password_digest: 'password2')
 user = User.create(username: 'Hellen', email: 'hellen449@gmail.com', password_digest: 'password3')
 
-workout1 = Workout.create(workout_name: 'plunge')
+WorkoutExercise.create(name: 'Push-ups', sets: 3, reps: 10, duration: 5)
+WorkoutExercise.create(name: 'Squats', sets: 4, reps: 12, duration: 7)
+WorkoutExercise.create(name: 'Sit-ups', sets: 2, reps: 15, duration: 6)
+WorkoutExercise.create(name: 'Lunges', sets: 3, reps: 10, duration: 8)
