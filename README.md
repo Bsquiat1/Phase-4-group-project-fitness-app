@@ -89,3 +89,5 @@ Write tests for your changes if applicable.
 Run the tests to ensure they pass.
 Commit your changes and push them to your forked repository.
 Submit a pull request detailing your changes.
+
+Here's a link to the front end    https://github.com/Bsquiat1/fitness-app-frontend
