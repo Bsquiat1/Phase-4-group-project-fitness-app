@@ -1,5 +1,5 @@
 Flex Fitness App
-Flex Fitness is a Ruby on Rails and React application that allows users to track their workouts and exercises. It provides functionality for creating, updating, and deleting workouts, as well as viewing workout details.
+Flex Fitness is a Ruby on Rails and React application that allows users to track their workouts and exercises. It provides functionality for creating, updating, and deleting workouts, as well as viewing workout details
 
 Features
 User authentication: Users can sign up, log in, and log out of the application.
